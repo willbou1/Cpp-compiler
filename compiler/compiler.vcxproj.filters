@@ -1,22 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\front-end">
+      <UniqueIdentifier>{543a2dc4-a417-4bb7-a9e5-de8f9e9b40dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\back-end">
+      <UniqueIdentifier>{fe06cb86-49fd-457e-b319-e08200e86511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\front-end\lexical analyzer">
+      <UniqueIdentifier>{cf9c19dc-7805-4a72-915d-6aad28e8eb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\front-end\syntactic analyzer">
+      <UniqueIdentifier>{1752f5ec-88cb-45ee-a942-dc66721a82ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\front-end\context handler">
+      <UniqueIdentifier>{d1019687-91cf-4e95-b888-1b2a6bbe05c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\front-end\IC generator">
+      <UniqueIdentifier>{59e1fea3-99e8-436f-930c-c661c4b5d983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\back-end\code generator">
+      <UniqueIdentifier>{3d59edb6-50e8-43d3-9dc7-1dacea3a9760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\back-end\IC optimizer">
+      <UniqueIdentifier>{b94c86eb-8fd7-44d0-8f7d-60791ffb945b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\back-end\target code optimizer">
+      <UniqueIdentifier>{7e12f2e2-a8cb-4dfe-b77c-3b96d7931c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\back-end\machine code generator">
+      <UniqueIdentifier>{b088d6c7-a33c-4df5-b463-ff192968cd03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
